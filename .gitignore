@@ -1,0 +1,27 @@
+# Segreti: mai committare le credenziali
+.env
+.env.*
+!.env.example
+
+# Dipendenze
+node_modules/
+
+# Stato locale, log e anteprime (possono contenere dati dell'impianto)
+var/*
+!var/.gitkeep
+
+# Log generici
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# File temporanei
+*.tmp
+*.bak

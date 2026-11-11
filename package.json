@@ -1,0 +1,19 @@
+{
+  "name": "fusionlite-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Report giornaliero FusionSolar via email (impianto singolo, Europe/Rome)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "start": "node src/main.mjs",
+    "demo": "node src/main.mjs --demo --out var/report-preview.html",
+    "check": "node src/main.mjs --check"
+  },
+  "dependencies": {
+    "nodemailer": "^10.5.0"
+  }
+}
